@@ -1,0 +1,31 @@
+{
+    "name": "evpanov/phpann",
+    "description": "PHP Artificial Neural Network",
+    "keywords": [
+        "php",
+        "ann",
+        "artificial neural network",
+        "neural network"
+    ],
+    "type": "lib",
+    "version": "1.0",
+    "require": {
+        "php": ">=7.2"
+    },
+    "config": {
+        "platform": {
+            "php": "7.2.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPANN\\": "lib"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgenii Panov",
+            "email": "ev.panov@gmail.com"
+        }
+    ]
+}
